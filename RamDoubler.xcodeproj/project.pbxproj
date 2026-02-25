@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2F213D89CF29E402AB9B30 /* RamDoublerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E5711DFD5349D68F5FA652 /* RamDoublerApp.swift */; };
+		2258F506B2C44D5031693B49 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B273BDCC8C5175BCB8737111 /* SettingsView.swift */; };
+		2FA25C0438A43AFBD394756F /* MainPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FEAACA1448BDBA46F94FB5 /* MainPopoverView.swift */; };
+		3DAB2B1767D2C5EE823A8F64 /* RamDiskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97672CFF13B9B66CBFDDAC /* RamDiskManager.swift */; };
+		4F57A7C6BBF2FFA23FBC639B /* MemoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4128F8FABDC115877337542 /* MemoryMonitor.swift */; };
+		CC5E7F3BDA8420A45F86C1A7 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959FFC9FBFE871E68BBADE00 /* AppSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14FEAACA1448BDBA46F94FB5 /* MainPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPopoverView.swift; sourceTree = "<group>"; };
+		1CCF9E6AAB0BBC0F5FF1AF8E /* RamDoubler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RamDoubler.entitlements; sourceTree = "<group>"; };
+		334256763161356623F22216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		83E5711DFD5349D68F5FA652 /* RamDoublerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamDoublerApp.swift; sourceTree = "<group>"; };
+		8BDCC9D56E96B9CD1DFF2108 /* RamDoubler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamDoubler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C97672CFF13B9B66CBFDDAC /* RamDiskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamDiskManager.swift; sourceTree = "<group>"; };
+		959FFC9FBFE871E68BBADE00 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		B273BDCC8C5175BCB8737111 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E4128F8FABDC115877337542 /* MemoryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03E5C13701BFA40352FEFAFE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				959FFC9FBFE871E68BBADE00 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0FBEB5713B3C28F4A6CC4C16 = {
+			isa = PBXGroup;
+			children = (
+				EBBCAF0A9BF0DABE9BA77C1D /* RamDoubler */,
+				1C189A2788B4DB6FFCBB754F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C189A2788B4DB6FFCBB754F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BDCC9D56E96B9CD1DFF2108 /* RamDoubler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8F0647784AC7BBCD89FE5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E4128F8FABDC115877337542 /* MemoryMonitor.swift */,
+				8C97672CFF13B9B66CBFDDAC /* RamDiskManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5A5B5D71BAD429B1D9B0EB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14FEAACA1448BDBA46F94FB5 /* MainPopoverView.swift */,
+				B273BDCC8C5175BCB8737111 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBBCAF0A9BF0DABE9BA77C1D /* RamDoubler */ = {
+			isa = PBXGroup;
+			children = (
+				334256763161356623F22216 /* Info.plist */,
+				1CCF9E6AAB0BBC0F5FF1AF8E /* RamDoubler.entitlements */,
+				83E5711DFD5349D68F5FA652 /* RamDoublerApp.swift */,
+				03E5C13701BFA40352FEFAFE /* Models */,
+				6E8F0647784AC7BBCD89FE5D /* Services */,
+				D5A5B5D71BAD429B1D9B0EB6 /* Views */,
+			);
+			path = RamDoubler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5EA7B47F811BEC52962E97B /* RamDoubler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4870D5F0A71B3E52CB03B5D /* Build configuration list for PBXNativeTarget "RamDoubler" */;
+			buildPhases = (
+				776EED0FEC8DE6A99560E896 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RamDoubler;
+			packageProductDependencies = (
+			);
+			productName = RamDoubler;
+			productReference = 8BDCC9D56E96B9CD1DFF2108 /* RamDoubler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ED6AFCFAB55136070D34E21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D5EA7B47F811BEC52962E97B = {
+						DevelopmentTeam = KR6GAN67JK;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C7184616B1E124C949C6006F /* Build configuration list for PBXProject "RamDoubler" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0FBEB5713B3C28F4A6CC4C16;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5EA7B47F811BEC52962E97B /* RamDoubler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776EED0FEC8DE6A99560E896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5E7F3BDA8420A45F86C1A7 /* AppSettings.swift in Sources */,
+				2FA25C0438A43AFBD394756F /* MainPopoverView.swift in Sources */,
+				4F57A7C6BBF2FFA23FBC639B /* MemoryMonitor.swift in Sources */,
+				3DAB2B1767D2C5EE823A8F64 /* RamDiskManager.swift in Sources */,
+				0E2F213D89CF29E402AB9B30 /* RamDoublerApp.swift in Sources */,
+				2258F506B2C44D5031693B49 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2273514A67FB46AE082B1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KR6GAN67JK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "RamDoubler X";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		74FEA04B1B66D3278613E2FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RamDoubler/RamDoubler.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RamDoubler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramdoubler.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8E4C3B0040F9D26C20573ED3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RamDoubler/RamDoubler.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RamDoubler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ramdoubler.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9D032B40EFA3E88311A18D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KR6GAN67JK;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "RamDoubler X";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4870D5F0A71B3E52CB03B5D /* Build configuration list for PBXNativeTarget "RamDoubler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74FEA04B1B66D3278613E2FD /* Debug */,
+				8E4C3B0040F9D26C20573ED3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7184616B1E124C949C6006F /* Build configuration list for PBXProject "RamDoubler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2273514A67FB46AE082B1C19 /* Debug */,
+				9D032B40EFA3E88311A18D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ED6AFCFAB55136070D34E21 /* Project object */;
+}
